@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#baner{
+    height: 60px;
+    background-color: #af8c4b;
+}
+
+/* main */
+article{
+    height: 500px;
+}
+
+#panel-lewy{
+    float: left;
+    height: 500px;
+    background-color: #af8c4b;
+    width: 30%;
+}
+
+#panel-prawy{
+    float: right;
+    height: 500px;
+    background-color: #ffd87e;
+    width: 70%;
+    overflow: scroll}
+/* stopa */
+#stopka{
+    height: 25px;
+    background-color: #af8c4b;
+    border: dotted black 1px;
+}
+
