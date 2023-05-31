@@ -1,12 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 #baner{
     height: 60px;
     background-color: #af8c4b;
+}
+
+.nagłówek{
+    display: grid;
+    justify-content: center;
 }
 
 /* main */
@@ -19,6 +25,22 @@ article{
     height: 500px;
     background-color: #af8c4b;
     width: 30%;
+    text-align: right;
+}
+
+.lista{
+    list-style-type: circle;
+}
+
+a{
+    color: #ffd87e;
+}
+
+#linia{
+    color: #ffd87e;
+    border-color: #ffd87e;
+    border-color: #ffd87e;
+    /* nie działa UnU */
 }
 
 #panel-prawy{
@@ -26,11 +48,21 @@ article{
     height: 500px;
     background-color: #ffd87e;
     width: 70%;
-    overflow: scroll}
+    overflow: scroll;
+}
+
+img{
+    height: 500px;
+    width: 100%;
+}
 /* stopa */
 #stopka{
     height: 25px;
     background-color: #af8c4b;
-    border: dotted black 1px;
 }
 
+.stopka{
+    display: grid;
+    justify-content: center;
+
+}
